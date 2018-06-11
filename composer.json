@@ -1,0 +1,34 @@
+{
+  "name": "amrdesign/simple-mysqli",
+  "description": "Easy MySQLi library",
+  "keywords": [
+    "php",
+    "mysqli",
+    "simple db",
+    "DB",
+    "EasySql"
+  ],
+  "type": "library",
+  "homepage": "https://github.com/amrdesign/EasySql",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Amr Ragab",
+      "email": "web@amr-design.net",
+      "homepage": "http://amr-design.net",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~6.0",
+    "doctrine/dbal": "~2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "AmrDesign\\EasySql\\": "src/AmrDesign/EasySql/"
+    }
+  }
+}
